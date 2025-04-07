@@ -1,33 +1,37 @@
-mount c c:\assembly
+# 🖥️ COAL-NASM (Computer Organization & Assembly Language)
 
-c:
+This repository contains **COAL (Computer Organization and Assembly Language)** lab work and assignments written in **NASM Assembly Language**. As the **Class Representative (CR)**, I’ve organized this repo to help classmates easily access and understand the core concepts of low-level programming.
 
-dir
+---
 
-nasm filename.asm -o filename.com
+## 📌 About
+- Covers **Assembly Language programs using NASM** on x86 architecture.
+- Includes **lab assignments, class exercises, and extra practice programs**.
+- Helps students understand **registers, memory, I/O, loops, strings, and arithmetic operations** in Assembly.
 
-org 100h
-//ORG 100h IS LIBRARY
+---
 
+## 🚀 Getting Started
 
-mov ah, 09h
-//varible declaration
+### Prerequisites
+Make sure you have the following installed on your system:
 
-mov dx, msg
-//varible for printing msg
+- ✅ [**NASM** (Netwide Assembler)](https://www.nasm.us/)
+- ✅ [**DOSBox** 
+- ✅ **Git** (optional, for cloning the repository)
 
-int 21h
+---
 
+### 🖥️ Run NASM Programs Using DOSBox
 
-mov ax, 4C00h
-int 21h
+> 💡 These steps assume your `.ASM` files are located in `C:\assembly`.
 
-msg db 'Hello from NASM$', 0
+#### Step-by-step Guide:
 
-
-
-afd filename.com
-press f1 to load and execute
-<!-- practice for exams
-
-integer print -->
+```bash
+Step 1: mount c c:\assembly        # Mount your folder as C drive
+Step 2: c:                         # Switch to C drive
+Step 3: dir                        # List files in directory
+Step 4: nasm filename.asm -o filename.com   # Compile ASM to .COM
+Step 5: afd filename.com          # Run using AFD Debugger
+Step 6: Press F1 to Load & Execute
