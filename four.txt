@@ -1,0 +1,8 @@
+ORG 0X100  
+MOV CX, 10; 
+MOV AX, 0;  
+L1: 
+ADD AX, 1; 
+LOOP L1 
+MOV AX, 0X4C00; 
+INT 0X21 
