@@ -1,11 +1,11 @@
 ; ORG 100h IS LIBRARY
 org 100h
 
-; varible declaration
+; variable declaration
 mov ah, 09h
-; varible for printing msg
+; variable for printing msg
 mov dx, msg
-; for printing varible
+; for printing variable
 int 21h
 ; one more variable 
 mov ax, 4C00h
