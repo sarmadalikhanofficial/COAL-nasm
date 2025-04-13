@@ -33,5 +33,5 @@ Step 1: mount c c:\assembly        # Mount your folder as C drive
 Step 2: c:                         # Switch to C drive
 Step 3: dir                        # List files in directory
 Step 4: nasm filename.asm -o filename.com   # Compile ASM to .COM
-Step 5: afd filename.com          # Run using AFD Debugger
+Step 5: afd filename.com          # Run using AFD (Assembler & Debugger), 
 Step 6: Press F1 to Load & Execute
