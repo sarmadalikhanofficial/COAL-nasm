@@ -1,6 +1,5 @@
 ; ORG 100h IS LIBRARY
 org 100h
-
 ; variable declaration
 mov ah, 09h
 ; variable for printing msg
