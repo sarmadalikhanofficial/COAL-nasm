@@ -16,6 +16,14 @@ SUB AX, BX
 MOV AX, 0X4C00
 INT 0X21
 
+;SUB TWO VALUES
+ORG 0x100           
+MOV AX, 10            
+MOV BX, 5             
+SUB AX, BX           
+MOV AX, 0x4C00      
+INT 0x21   
+
 ; MUL
 ORG 0X100
 MOV AL, 3
