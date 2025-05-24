@@ -19,7 +19,7 @@ Make sure you have the following installed on your system:
 - ✅ [**NASM** (Netwide Assembler)](https://www.nasm.us/)
 - ✅ [**DOSBox** 
 - ✅ **Git** (optional, for cloning the repository)
-- ✅ [**MARS** (MARS (original) MIPS Assembler and Runtime Simulator)](https://github.com/dpetersanderson/MARS)
+- ✅ [**MARS** (Original MIPS Assembler and Runtime Simulator)](https://github.com/dpetersanderson/MARS)
 ---
 
 ### 🖥️ Run NASM Programs Using DOSBox
