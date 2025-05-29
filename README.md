@@ -63,3 +63,4 @@ lw $t2, 0($t1)     # Load value from array into $t2
 add $t3, $t0, $t2  # Add $t0 and $t2, store in $t3
 sw $t3, 4($t1)     # Store $t3 into array[1]
 ```
+
