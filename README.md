@@ -17,7 +17,7 @@ This repository contains **COAL (Computer Organization and Assembly Language)** 
 Make sure you have the following installed on your system:
 
 - ✅ [**NASM** (Netwide Assembler)](https://www.nasm.us/)
-- ✅ [**DOSBox** 
+- ✅ **DOSBox** 
 - ✅ **Git** (optional, for cloning the repository)
 - ✅ [**MARS** (Original MIPS Assembler and Runtime Simulator)](https://github.com/dpetersanderson/MARS)
 ---
