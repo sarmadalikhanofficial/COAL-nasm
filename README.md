@@ -35,10 +35,12 @@ Step 3: dir                        # List files in directory
 Step 4: nasm filename.asm -o filename.com   # Compile ASM to .COM
 Step 5: afd filename.com          # Run using AFD (Assembler & Debugger), 
 Step 6: Press F1 to Load & Execute
-*
+```
+
 
 # Common MIPS Assembly Instructions
 
+```bash
 | Instruction | Syntax                | Description                                                                 |
 |-------------|-----------------------|-----------------------------------------------------------------------------|
 | `li`        | `li $reg, imm`        | **Load Immediate:** Loads an immediate (constant) value into a register.<br>Example: `li $t0, 5` puts 5 in `$t0`. |
@@ -52,6 +54,7 @@ Step 6: Press F1 to Load & Execute
 | `j`         | `j label`             | **Jump:** Unconditional jump to a label.<br>Example: `j loop` jumps to `loop`. |
 | `syscall`   | `syscall`             | **System Call:** Performs an OS service (print, read, exit, etc.) based on value in `$v0`. |
 
+```
 ---
 
 ## Example Usage
@@ -63,4 +66,3 @@ lw $t2, 0($t1)     # Load value from array into $t2
 add $t3, $t0, $t2  # Add $t0 and $t2, store in $t3
 sw $t3, 4($t1)     # Store $t3 into array[1]
 ```
-
