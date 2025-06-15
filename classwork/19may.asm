@@ -9,7 +9,7 @@ nl: .asciiz "\n"
 .globl main
 main:
     # Prompt 1
-    li $v0, 4
+    li $v0, 4        # print string
     la $a0, msg1
     syscall
 
